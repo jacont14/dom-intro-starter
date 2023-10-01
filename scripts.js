@@ -41,9 +41,9 @@ svgs[i].style.stroke = colors[i];
 document.querySelector(".bold").style.color = "#7C9EA6";
 
 // changing dom node content
-document.querySelector(".content_list li:first-of-type").textContent = "this is the new list item text";
+document.querySelector("content_list li:first-of-type").textContent = "this is the new list item text";
 
-document.querySelectorAll(".content_list li")[2].innerHTML += " <strong>Juan Contreras</strong";
+document.querySelectorAll("content_list li")[2].innerHTML += " <strong>Juan Contreras</strong";
 
 //removing attributes
 document.querySelector("#remove a").removeAttribute("hidden");
